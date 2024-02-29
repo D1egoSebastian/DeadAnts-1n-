@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="0.078" timestamp="2024-02-27T22:32:21.861275" hostname="DiegoSebastian"><testcase classname="test_deadants.TestAntsFunction" name="test_ants1" file="test_deadants.py" line="4" time="0.001"><failure message="AssertionError: -2 != 0">self = &lt;test_deadants.TestAntsFunction testMethod=test_ants1&gt;
+
+    def test_ants1(self):
+        ants_problem = "antantant"
+&gt;       self.assertEqual(antsfunction(ants_problem), 0)
+E       AssertionError: -2 != 0
+
+test_deadants.py:7: AssertionError</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>
